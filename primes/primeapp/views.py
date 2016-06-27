@@ -15,7 +15,7 @@ def prime_sieve(num):
             continue
 
         primes.append(i)
-        j = i
+        j = i * i
         while j <= num:
             sieve[j] = True
             j += i
