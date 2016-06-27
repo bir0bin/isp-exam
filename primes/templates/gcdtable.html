@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GCD table</title>
+</head>
+<body>
+    <h2>GCD table from {{ a }} to {{ b }}</h2>
+    <table>
+        {% for row in table %}
+        <tr>
+            {% for item in row %}
+            <td>
+                {{ item }}
+            </td>
+            {% endfor %}
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>
