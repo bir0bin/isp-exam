@@ -1,0 +1,5 @@
+{'args': [965211250482432409], 'type': 'isprime'}: False
+{'args': [4, 100], 'type': 'counteven'}: 49
+{'args': [965211250482432409], 'type': 'isprime'}: False
+{'args': [9, 20401], 'type': 'counteven'}: 10196
+{'args': [293021], 'type': 'isprime'}: True

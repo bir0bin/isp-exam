@@ -5,7 +5,7 @@ def cached(func):
     cache_dict = {}
 
     def wrapper(*args, **kwargs):
-        key = str((func, args, kwargs))
+        key = str((func, args, sorted(kwargs.items())))
         if key not in cache_dict:
             cache_dict[key] = func(*args, **kwargs)
         return cache_dict[key]
